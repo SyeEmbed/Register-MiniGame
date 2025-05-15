@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#change-due{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    border: 1px solid black;
+    width: 85vw;
+    height: 15px;
+    font-size: 7px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+#cashowed{
+    font-size: 10px;
+    margin-top: 7px;
+}
+.payment{
+   padding: 0;
+}
+.top-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: 20vh;
+    margin-bottom: 10px;
+}
+.top-container input{
+    width: 50px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 3px;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 3px;
+}
+.top-container button{
+    height: 12px;
+    width: 30px;
+    font-size: 10px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: hsla(120, 97%, 34%, 0.8);
+    cursor: pointer;   
+}
+.top-container button:hover{
+    background-color: hsla(120, 97%, 34%, 0.6);
+    box-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.779);
+}
+.top-container button:active{
+    background-color: hsla(120, 97%, 34%);
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 75vh;
+    margin: 0;
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+}
+.price-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid gray;
+    box-shadow: 0px 3px 1px 1px hsla(0, 0%, 0%, 0.6);
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin-bottom: -10px;
+    z-index: 1000;
+}
+.cash-reg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    width: 122px;
+    background-color: hsl(207, 81%, 92%);
+}
+.btn-container{
+    width: 100px;
+    height: 105px;
+    padding: 5px;
+    gap: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: hsl(207, 85%, 82%);
+    box-shadow: 1px 1px 3px 1px hsla(0, 0%, 0%, 0.6);
+}
+.main-btns{
+    display: flex;
+    gap: 5px;
+}
+.btns{
+    flex: 1;
+    border: 1px solid black;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    border-radius: 10px;
+    width: 15px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.btns:hover{
+    background-color: hsl(0, 0%, 80%);
+}
+.equals-btn:hover{
+    background-color: hsl(0, 0%, 80%);
+}
+.btns:active{
+    background-color: hsl(0, 0%, 70%);
+}
+.equals-btn:active{
+    background-color: hsl(0, 0%, 70%);
+
+}
+.equals-container{
+    flex: 1;
+}
+.equals-btn{
+    flex: 1;
+    margin-top: 5px;
+    width: 100px;
+    border: 1px solid black;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+.right-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+    width: 50vw;
+   
+
+}
+.right-container h3{
+    font-size: 15px;
+}
+.list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 180px;
+}
+.list-container h4{
+    margin: 5px;
+}
+.cashlist p{
+    list-style-type: none;
+    font-size: 10px;
+    margin: 1px;
+}
+.coinlist ul li{
+    list-style-type: none;
+    font-size: 10px;
+    margin: 1px;
+}
+.drawer-line{
+    width: 142px;
+    height: 5px;
+    background-color: hsla(0, 0%, 22%, 0.737);
+}
+
+.drawer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 142px;
+    height: 20px;
+    background-color: hsl(207, 85%, 82%);
+    border-radius: 0px 0px 10px 10px;
+}
+.keyhole{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(163, 162, 162, 0.852);
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.559);
+}
+.keyline{
+    width: 1.5px;
+    height: 6px;
+    background-color: gray;
+}

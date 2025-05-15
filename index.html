@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-container">
+        <div class="payment">
+            <p id="cashowed">Cash in hand:</p>
+            <input type="text" id="cash">
+            <button id="purchase-btn" for="cash" onclick="changePrice()">PAY</button>  
+
+            <div id="change-due"></div>
+        </div>
+        
+    </div>
+
+    <div class="container">
+
+        <div class="left-container">
+            <div class="price-container">
+                <p id="price"></p>
+            </div>
+            <div class="cash-reg">
+                <div class="btn-container">
+                    <div class="main-btns">
+                        <button class="btns">7</button>
+                        <button class="btns">8</button>
+                        <button class="btns">9</button>
+                    </div>
+                    <div class="main-btns">
+                        <button class="btns">4</button>
+                        <button class="btns">5</button>
+                        <button class="btns">6</button>
+                    </div>
+                    <div class="main-btns">
+                        <button class="btns">3</button>
+                        <button class="btns">2</button>
+                        <button class="btns">1</button>
+                    </div>
+                    <div class="main-btns">
+                        <button class="btns">0</button>
+                        <button class="btns">.</button>
+                        <button class="btns">c</button>
+                    </div>
+                    <div class="equals-container">
+                        <button class="equals-btn">=</button>
+                    </div>
+                   
+                </div>
+            
+            </div>
+            <div class="drawer-line"></div>
+            <div class="drawer">
+                <div class="keyhole">
+                    <div class="keyline"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-container">
+            <h3>Change Left:</h3>
+
+            <div class="list-container">
+
+                <div class="cashlist">
+                    <h3>Cash:</h3>
+                    <p>Hundreds: $<span id="hundreds-left">0.00</span></p>
+                    <p>Twenties: $<span id="twenties-left">0.00</span></p>
+                    <p>Tens: $<span id="tens-left">0.00</span></p>
+                    <p>Fives: $<span id="fives-left">0.00</span></p>
+                    <p>Ones: $<span id="ones-left">0.00</span></p>
+                    
+                    <h3>Coins:</h3>
+                    <p>Quarters: $<span id="quarters-left">0.00</span></p>
+                    <p>Dimes: $<span id="dimes-left">0.00</span></p>
+                    <p>Nickels: $<span id="nickels-left">0.00</span></p>
+                    <p>Pennies: $<span id="pennies-left">0.00</span></p>
+                  </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
