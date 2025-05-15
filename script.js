@@ -110,15 +110,15 @@ purchaseBtn.addEventListener("click", () => {
   if (totalChangeGiven < roundToTwo(cash - currentPrice)) {
     changeDue.textContent = "Status: INSUFFICIENT_FUNDS";
   } else if (roundToTwo(cid.reduce((sum, [_, amt]) => sum + amt, 0)) === 0) {
-    let result = "Status: CLOSED";
+    let result = "Status: CLOSED! ";
     changeArray.forEach(([unit, amount]) => {
-      result += ` ${unit}: $${amount}`;
+      result += `( ${unit}: $${amount} )`;
     });
     changeDue.textContent = result;
   } else {
-    let result = "Status: OPEN";
+    let result = "Status: OPEN! ";
     changeArray.forEach(([unit, amount]) => {
-      result += ` ${unit}: $${amount}`;
+      result += `( ${unit}: $${amount} )`;
     });
     changeDue.textContent = result;
   }
